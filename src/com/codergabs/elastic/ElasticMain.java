@@ -50,7 +50,7 @@ public class ElasticMain {
 		}
 		System.out.println(json);
 
-		//RestClient.httpPost(json,"http://localhost:9200/gabsindex/employee/2");
+		RestClient.httpPost(json,"http://localhost:9200/gabsindex/employee/1");
 			
 		System.out.println(RestClient.httpGet("http://localhost:9200/gabsindex/employee/_search"));
 		
